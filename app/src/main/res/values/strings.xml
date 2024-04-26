@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">E-Commerce</string>
+    <string name="home_search_hint">What do you search for?</string>
+    <string name="favorites_nav_tab_title">Favorites</string>
+    <string name="home_nav_tab_title">Home</string>
+    <string name="categories_nav_tab_title">Categories</string>
+    <string name="account_nav_tab_title">Account</string>
+    <string name="up_to">UP TO</string>
+    <string name="off">OFF</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">view all</string>
+    <string name="home_appliances">Home Appliances</string>
+    <string name="laptops_and_accessories"><![CDATA[Laptops & Accessories]]></string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart">Cart</string>
+    <string name="total_price">Total price</string>
+    <string name="check_out">Check Out</string>
+    <string name="placeholder_placeholder">PlaceHolder PlaceHolder</string>
 </resources>
