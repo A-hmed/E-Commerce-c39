@@ -6,6 +6,12 @@ import android.widget.ScrollView
 
 object UIConstants {
 
+    const val WOMEN_FASHION_CATEGORY_ID = "6439d58a0049ad0b52b9003f"
+
+    const val PASSED_CATEGORIES_LIST = "PassedCategoriesList"
+    const val PASSED_CATEGORY = "PassedCategory"
+    const val PASSED_POSITION = "PassedPosition"
+
     /**
      * Performs an action by invoking [action] when the [view] gets visible
      * due to scrolling change. The [view] should be a child of the [ScrollView]

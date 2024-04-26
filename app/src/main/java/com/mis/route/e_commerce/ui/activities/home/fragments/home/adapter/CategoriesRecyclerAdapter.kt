@@ -27,8 +27,20 @@ class CategoriesRecyclerAdapter(var categoriesList: List<Category?>?) :
     override fun getItemCount() = categoriesList?.size ?: 0
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val category = categoriesList!![position]
+        val category = categoriesList!![position] ?: return
         holder.bind(category)
-        // set click listener
+        holder.itemView.setOnClickListener {
+            onCategoryClickListener?.onCategoryClick(category, position)
+        }
+    }
+
+    private var onCategoryClickListener: OnCategoryClickListener? = null
+
+    fun setOnCategoryClickListener(listener: OnCategoryClickListener) {
+        onCategoryClickListener = listener
+    }
+
+    fun interface OnCategoryClickListener {
+        fun onCategoryClick(category: Category, position: Int)
     }
 }

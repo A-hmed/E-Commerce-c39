@@ -3,7 +3,7 @@ package com.mis.route.e_commerce.ui.activities.auth.fragments.login
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.mis.route.e_commerce.domain.usecases.LoginUseCase
+import com.mis.route.e_commerce.domain.usecases.auth.LoginUseCase
 import com.mis.route.e_commerce.ui.base.BaseViewModel
 import com.mis.route.e_commerce.ui.model.ViewMessage
 import dagger.hilt.android.lifecycle.HiltViewModel
